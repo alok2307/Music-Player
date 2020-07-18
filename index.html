@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="css/mp.css">
+
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <audio src="a1.mp3" loop id="song" ></audio>
+    <img src="images/bg.png" alt="background" id="bg">
+    <div class="container">
+        <div class="song-name">
+
+        </div>
+        <div class="song-title">Dil huaa diwana tere pyar me -  yo yo</div>
+        <img src="images/img.png" alt="icon" id="thumbnail">
+        <div class="box"></div>
+        <i class="fas fa-angle-left" id="ps"></i>
+        <i class="fas fa-play-circle" id="pp"></i>
+        <i class="fas fa-angle-right" id="ns"></i>
+
+        <input type="range" id="progressbar" min="0" max="" value="0">
+    </div>
+    
+
+    <script src="js/mp.js"></script>
+</body>
+</html>
